@@ -1,0 +1,116 @@
+
+/* ================================== MAIN FORM ==================================== */
+h2 {
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+.log-text, .Privacy-Policy{
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+}
+.log-name, .log-user, .log-email, .log-password, .log-date-birth, .log-address {
+    margin: 5px;
+    border: 1px solid #1259c3;
+    border-radius: 20px;
+    padding: 8px;
+    display: flex;
+    width: 70%;
+    background-color: white;
+}    
+
+.log-user-profile {
+    display: flex;
+    width: 70%;
+    padding: 5px 0;
+    align-items: center;
+}
+
+.log-user-profile input {
+    display: flex;
+    width: 50%; 
+}
+
+.log-user-likes{
+    width: 70%;
+    padding: 5px 0;
+}
+
+.log-user-likes div{
+    display: flex;
+    align-items: center;
+}
+
+.log-user-likes input {
+    width: 20%;
+}
+
+.log-user-likes label {
+    width: 80%;
+    padding: 0;
+}
+
+.log-image {
+    width: 70%;
+    padding: 5px 0;
+}
+
+main form input {
+    border: none;
+    font-size: 12px;
+    width: 100%;
+    padding: 0 5px;
+    outline: none;
+}
+
+main form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main form label {
+    font-size: 14px;
+    font-weight: bold;
+    width: 70%;
+    padding: 5px 0;
+}
+
+form i {
+    text-shadow: -1px -1px 2px rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.4);
+    margin-right: 5px;
+    margin: auto;
+}
+
+.register-buttons {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.register-buttons button {
+    margin: 5px;
+    background-color: #1259c3;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 20px;
+    border: none;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    box-shadow: -2px -2px 1px 2px rgba(255, 255, 255, 0.5), 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+.back-login {
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+}
+.error {
+    display: none;
+}
+input[name="name"]:invalid+span.error {
+    display: inline;
+    color: red;
+}

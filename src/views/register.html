@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/styles-register.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="/"><img src="images/logo-mercado-liebre.svg" alt = "logo"></a>
+        </div>
+        <div class="form" action="/home.html" method="GET">
+            <div class="input">Buscar productos, marcas y más</div>
+            <div class="submit"><i class="fa fa-search"></i></div>
+        </div>
+        
+        <p><i class="fa-solid fa-hand-holding-dollar"></i>Compra en cuotas y sin tarjeta de crédito</p>
+              
+        <ul class="navBar">
+            <li><a href = #> Ofertas </a></li>
+            <li><a href = #> Tiendas Oficiales </a></li>
+            <li><a href = #> Vender </a> </li>
+            <li><a href = #> Ayuda </a></li>
+        </ul>
+        <ul class="options">
+            <li><a href = #>Creá tu cuenta</a><i class="fa-regular fa-id-card"></i></li>
+            <li><a href = #>Ingresá</a><i class="fa-solid fa-right-to-bracket"></i></li>
+            <li><a href = #>Mis compras</a><i class="fa-solid fa-basket-shopping"></i></li>
+        </ul>
+        
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+         
+    </header>
+
+    <main>
+        
+        <h2>REGISTRO</h2>
+        
+        <form action="/" method="get">
+          
+            <div class="log-name">
+              <i class="fa-solid fa-pencil"></i>
+              <input type="text" name="name" id="name" minlength="2" placeholder="Nombre y apellido">
+              <span class="error">La longitud del nombre debe ser mayor a un caracter</span>
+            </div>
+            
+            <div class="log-user">
+              <i class="fa-solid fa-user"></i>
+              <input type="text" name="log-user" id="log-user" placeholder="Nombre de usuario"> 
+            </div>
+            
+            <div class="log-email">
+              <i class="fa-solid fa-envelope"></i>
+              <input type="email" name="email" id="email" placeholder="Correo Electrónico"> 
+            </div>
+            
+            <label for="date-birth" >Fecha de nacimiento</label>
+            <div class="log-date-birth">
+                <i class="fa-solid fa-cake-candles"></i>
+                <input type="date" name="date-birth" id="date-birth"> 
+            </div>
+            
+            <div class="log-address">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" name="log-address" id="log-address" placeholder="Domicilio"> 
+            </div>
+
+            <label for="log-user-profile">Perfil del usuario</label>           
+            
+            <div class="log-user-profile">
+                <label>Comprador</label>
+                <input type="radio" name="log-user-profile" value="Comprador">
+                <label>Vendedor</label>
+                <input type="radio" name="log-user-profile" value="Vendedor">
+            </div>
+            
+            <label for="log-user-likes">Intereses</label>           
+            
+            <div class="log-user-likes">
+                <div>
+                    <input type="checkbox" name="log-user-likes" value="Electro">
+                    <label>Electro</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="log-user-likes" value="Moda">
+                    <label>Moda</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="log-user-likes" value="Hogar">
+                    <label>Hogar</label>
+                </div><div>
+                    <input type="checkbox" name="log-user-likes" value="Juguetería">
+                    <label>Juguetería</label>
+                </div><div>
+                    <input type="checkbox" name="log-user-likes" value="Vida Sana">
+                    <label>Vida Sana</label>
+                </div>
+            </div>
+            
+            <label for="log-image">Imagen de perfil</label>  
+            
+            <div class="log-image">
+                <input type="file" name="log-image" id="image"> 
+            </div>
+
+            <div class="log-password">
+              <i class="fa-solid fa-key"></i>
+              <input type="password" name="password" id="password" placeholder="Contraseña"> 
+            </div>
+  
+            <div class="log-password">
+              <i class="fa-solid fa-key"></i>
+              <input type="password" name="repeat-password" id="repeat-password" placeholder="Repita la Contraseña"> 
+            </div>
+          
+            <div class="Privacy-Policy">
+            <p>Sus datos personales se utilizarán para respaldar su experiencia en este sitio web, para administrar el acceso a su cuenta y para otros fines descritos en nuestra <u><b>política de privacidad</b></u></p>
+            </div>
+  
+            <div class="register-buttons">
+            <button type="submit">Registrarse</button>
+            <button type="reset">Reset datos</button>
+            </div>
+        </form>     
+    </main>
+</body>
+</html>
